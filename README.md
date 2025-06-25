@@ -17,7 +17,7 @@ This Terraform module creates an Amazon SQS (Simple Queue Service) queue with op
 
 ```hcl
 module "sqs" {
-  source = "path/to/module"
+  source = "Senora-dev/sqs/aws"
 
   name = "my-queue"
 }
